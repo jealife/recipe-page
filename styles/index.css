@@ -10,6 +10,10 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+main{
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: #414141;
@@ -253,6 +257,25 @@ input[type=submit]:hover {
 
 /* ========================================================================== */
 
+main .not_Found{
+    height: 100vh;
+    height: 100dvh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+}
+.not_Found>img{
+    width: 50%;
+}
+
+.not_Found>a{
+    background-color: #ff5900;
+    color: #F4F4F4;
+    outline-offset: 2px;
+    border-radius: 5rem;
+    padding: 1rem;
+}
 
 /* ========================================================================== */
 /* Responsive */
