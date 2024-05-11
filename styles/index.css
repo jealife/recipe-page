@@ -298,6 +298,9 @@ main .not_Found{
 }
 
 @media (width<776px) {
+    .not_Found>img{
+        width: 85%;
+    }
     .hero {
         border-bottom-left-radius: 3rem;
         border-bottom-right-radius: 3rem;
